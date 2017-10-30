@@ -1,0 +1,29 @@
+<div class="container">
+	<div class="navbar-header">
+		<a href="index.html" style="padding:0;margin:0;"><font color="#FFF" style="line-height:80px;">龙耀互联|3D手机全产业链生产厂家</font></a>
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		
+		
+	</div>
+	<div class="navbar-collapse collapse">
+		<ul class="nav navbar-nav navbar-right">
+		   {{each menuList as value i}}
+		   		{{if value.active}}
+		   			<li class="active" >
+						<a href="{{value.href}}">{{value.name}}</a>
+					</li>
+		   		{{else}}
+			   		<li >
+						<a href="{{value.href}}" style="color:#FFF;">{{value.name}}</a>
+					</li>
+		   		{{/if}}
+			     
+		   {{/each}}
+		</ul>
+
+	</div><!--/.nav-collapse -->
+</div>

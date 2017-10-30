@@ -1,0 +1,2 @@
+/*TMODJS:{"version":1,"md5":"e05f22dbd93e2fc50e3b034f05a2f049"}*/
+template('tpl/footer','<!DOCTYPE html> <html> <head> <meta charset="UTF-8"> <title>Insert title here</title> </head> <body> </body> </html>');

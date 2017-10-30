@@ -1,0 +1,2 @@
+/*TMODJS:{"version":60,"md5":"ac0aeae90f120a18d878fbfea4a7d48e"}*/
+template('footer','<div id="r"> <div class="container"> <div class="row centered"> <div class="col-lg-8 col-lg-offset-2"> <h4>深 圳 龙 耀 互 联 技 术 有 限 公 司 </h4> <h4>Shenzhen Shenping Longyao Technology Co., LTD</h4> <h4>注册地址：中国•深圳深港合作区前湾一路1号A栋201室</h4> <h4>官方网站：www.longtaonet.com </h4> </div> </div> </div> </div>  <div id="f"> <div class="container"> <div class="row centered"> ©2016 www.longyao.com <a href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备16105881号-1</a> </div> </div> </div> ');
